@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header #links a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: small;
+  color: #000;
+}
+
+header #links a:hover {
+  border-bottom: 1px solid #000;
+}
+
+#main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main #input {
+  border: 1px solid rgb(145, 143, 143);
+  border-radius: 25px;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  width: 500px;
+}
+
+#main #input i {
+  color: lightgray;
+}
+
+#main #input:hover {
+  box-shadow: 0px 0px 1px#000;
+}
+
+#main #input input {
+  width: 100%;
+  border: none;
+  box-shadow: 0 !important;
+  outline: 0 !important;
+  margin-left: 7px;
+  font-size: medium;
+}
+
+#main #button {
+  display: flex;
+  justify-content: center;
+}
+
+#main #button input {
+  background-color: rgb(227, 224, 224);
+  margin-top: 20px;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#advanceSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: small;
+}
+
+#small-logo {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+#small-logo img {
+  width: 70px;
+  height: auto;
+}
+
+#small-logo a {
+  float: right;
+}
+
+.advancesubheader {
+  font-weight: normal;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  border-bottom: 1px solid #000;
+}
+
+.advancesubheader h3 {
+  color: rgb(249, 74, 74);
+}
+
+.input1 .heading {
+  font-size: 16px;
+  min-width: 163px;
+  font-weight: 500;
+  color: #000;
+  width: 16%;
+}
+
+.input1 {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  max-width: 1140;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.input1 .textDes {
+  width: 200px;
+  font-size: 13px;
+}
+
+.input1 .input-field {
+  min-width: 167px;
+  width: 50%;
+}
+
+.input1 .input-field input {
+  border: 1px solid #000;
+}
