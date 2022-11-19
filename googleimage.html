@@ -5,24 +5,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Google Image</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="head">
-    <a href="index.html">Google Search</a>
+    <div id="links">
+      <a href="index.html">Google Search</a>
+    </div>
   </header>
   <div id="main">
     <div id="logo">
       <img src="google-logo.png">
     </div>
     <div>
-      <form action="https://google.com/image">
+      <form action="https://google.com/images">
         <div id="input">
           <i class="bi bi-search"></i>
-          <input type="text" placeholder="Search image..">
+          <input type="text" placeholder="Search image.." name="q" />
         </div>
 
         <div id="button">

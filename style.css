@@ -72,12 +72,23 @@ header #links a:hover {
   cursor: pointer;
 }
 
-#advanceSearch {
+#advanceHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   font-size: small;
+}
+
+#links a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: small;
+  color: #000;
+}
+
+#links a:hover {
+  border-bottom: 1px solid #000;
 }
 
 #small-logo {
@@ -91,49 +102,86 @@ header #links a:hover {
   height: auto;
 }
 
-#small-logo a {
-  float: right;
-}
-
-.advancesubheader {
-  font-weight: normal;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  padding-top: 30px;
+.advanceSubHeader {
   border-bottom: 1px solid #000;
 }
 
-.advancesubheader h3 {
-  color: rgb(249, 74, 74);
+.advanceSubHeader h3 {
+  color: rgb(196, 56, 56);
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-top: 15px;
+  font-weight: normal;
 }
 
-.input1 .heading {
+.inputOne .textDesHeading {
   font-size: 16px;
-  min-width: 163px;
-  font-weight: 500;
-  color: #000;
+  min-width: 167px;
   width: 16%;
+  font-weight: 500;
+  color: #333;
 }
 
-.input1 {
+.inputOne {
   display: flex;
   align-items: center;
+  max-width: 1140px;
   min-width: 200px;
-  max-width: 1140;
   width: 96%;
   margin: 40px 2% 0 45px;
 }
 
-.input1 .textDes {
+.inputOne .textDes {
   width: 200px;
   font-size: 13px;
 }
 
-.input1 .input-field {
+.inputOne .input-field {
   min-width: 167px;
   width: 50%;
 }
 
-.input1 .input-field input {
-  border: 1px solid #000;
+.inputOne .input-field input {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+}
+
+.inputOne .toDo {
+  width: 32%;
+  min-width: 16px;
+  color: #555;
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+span {
+  white-space: pre;
+  color: #333;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.inputOne .button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.button input {
+  background-color: #4d90fe;
+  margin-left: 10px;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  color: white;
+  height: 30px;
+  min-width: 120px;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
 }
